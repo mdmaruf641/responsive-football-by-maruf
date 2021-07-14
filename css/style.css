@@ -175,25 +175,26 @@ a {
     transition: .3s;
 }
 
-#stadiums .stadium a:hover{
+#stadiums .stadium a:hover {
     letter-spacing: 2px;
 }
+
 /* =====BONUS STADIUMS SECTION END===== */
 
 /* =====BONUS PERTNERS SECTION START===== */
 
-#partners{
+#partners {
     padding: 30px 0;
 }
 
-#partners .partners-heading h1{
+#partners .partners-heading h1 {
     font-size: 30px;
     text-transform: uppercase;
     color: #2D25A0;
     text-align: center;
 }
 
-#partners .all-partners-logo{
+#partners .all-partners-logo {
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -246,7 +247,7 @@ a {
 
     /* =====PLAYERS SECTION===== */
 
-    .all-players {
+    #players .all-players {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -260,24 +261,25 @@ a {
     }
 
     /* =====BONUS STADIUMS SECTION===== */
-    
-    #stadiums .stadiums-heading{
+
+    #stadiums .stadiums-heading {
         text-align: center;
     }
 
-    #stadiums .all-stadiums{
+    #stadiums .all-stadiums {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    #stadiums .stadium{
+    #stadiums .stadium {
         margin: 0 15px;
     }
-    #stadiums .stadium img{
+
+    #stadiums .stadium img {
         height: 200px;
     }
 
     /*  =====BONUS PARTNERS SECTION START===== */
-    #partners .all-partners-logo{
+    #partners .all-partners-logo {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -296,6 +298,7 @@ a {
     .banner-all-contents {
         flex-direction: row;
         justify-content: space-around;
+        margin: 0 20px;
     }
 
     #banner .banner-text h1 {
@@ -305,7 +308,7 @@ a {
     }
 
     .banner-img {
-        width: 380px;
+        width: 450px;
         height: 295px;
         margin-top: 0;
     }
@@ -322,23 +325,25 @@ a {
     }
 
     /* =====BONUS STADIUMS SECTION===== */
-    
-    #stadiums .stadiums-heading{
+
+    #stadiums .stadiums-heading {
         text-align: center;
     }
 
-    #stadiums .all-stadiums{
+    #stadiums .all-stadiums {
         grid-template-columns: repeat(2, 2fr);
     }
-    #stadiums .stadium{
+
+    #stadiums .stadium {
         margin: 0 15px;
     }
-    #stadiums .stadium img{
+
+    #stadiums .stadium img {
         height: 220px;
     }
 
     /*  =====BONUS PARTNERS SECTION START===== */
-    #partners .all-partners-logo{
+    #partners .all-partners-logo {
         grid-template-columns: repeat(2, 2fr);
     }
 
