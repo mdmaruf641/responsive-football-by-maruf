@@ -99,14 +99,14 @@ a {
 
 /* =====PLAYER SECTION END===== */
 
-#footer .footer-content{
+#footer .footer-content {
     text-align: center;
     margin-top: 150px;
     width: 483px;
     margin-left: 315px;
 }
 
-#footer .footer-img img{
+#footer .footer-img img {
     width: 100%;
 }
 
@@ -129,9 +129,79 @@ a {
     margin-bottom: 63px;
 }
 
+/* =====BONUS STADIUMS SECTION START===== */
+
+#stadiums {
+    padding: 40px 0;
+}
+
+#stadiums .stadiums-heading h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px 0 20px 0;
+    color: #2D25A0;
+}
+
+#stadiums .all-stadiums {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
 
 
+#stadiums .stadium img {
+    width: 100%;
+    height: 250px;
+    border-radius: 7px;
+}
 
+#stadiums .stadium h2 {
+    font-size: 25px;
+    color: #000F2C;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+
+#stadiums .stadium p {
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+
+#stadiums .stadium a {
+    color: #11a9fb;
+    font-size: 18px;
+    transition: .3s;
+}
+
+#stadiums .stadium a:hover{
+    letter-spacing: 2px;
+}
+/* =====BONUS STADIUMS SECTION END===== */
+
+/* =====BONUS PERTNERS SECTION START===== */
+
+#partners{
+    padding: 30px 0;
+}
+
+#partners .partners-heading h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #2D25A0;
+    text-align: center;
+}
+
+#partners .all-partners-logo{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    text-align: center;
+}
+
+/* =====BONUS PERTNERS SECTION END===== */
 
 
 
@@ -176,17 +246,39 @@ a {
 
     /* =====PLAYERS SECTION===== */
 
-    #players .all-players {
+    .all-players {
         grid-template-columns: repeat(1, 1fr);
     }
 
     /* =====FOOTER SECTION===== */
 
-    #footer .footer-content{
+    #footer .footer-content {
         margin-left: 20px;
         margin-top: 43px;
         margin-bottom: 147px;
-        width: 370px;
+        width: 310px;
+    }
+
+    /* =====BONUS STADIUMS SECTION===== */
+    
+    #stadiums .stadiums-heading{
+        text-align: center;
+    }
+
+    #stadiums .all-stadiums{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #stadiums .stadium{
+        margin: 0 15px;
+    }
+    #stadiums .stadium img{
+        height: 200px;
+    }
+
+    /*  =====BONUS PARTNERS SECTION START===== */
+    #partners .all-partners-logo{
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
@@ -226,8 +318,29 @@ a {
 
     #footer .footer-content {
         margin-left: 120px;
+        margin-top: 50px;
+    }
+
+    /* =====BONUS STADIUMS SECTION===== */
+    
+    #stadiums .stadiums-heading{
+        text-align: center;
+    }
+
+    #stadiums .all-stadiums{
+        grid-template-columns: repeat(2, 2fr);
+    }
+    #stadiums .stadium{
+        margin: 0 15px;
+    }
+    #stadiums .stadium img{
+        height: 220px;
+    }
+
+    /*  =====BONUS PARTNERS SECTION START===== */
+    #partners .all-partners-logo{
+        grid-template-columns: repeat(2, 2fr);
     }
 
 
 }
-
