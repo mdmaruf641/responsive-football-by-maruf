@@ -48,7 +48,7 @@ a {
     transition: .4s;
 }
 
-#banner .banner-text a:hover{
+#banner .banner-text a:hover {
     background-color: transparent;
     border: 2px solid #E02C6D;
 }
@@ -64,6 +64,41 @@ a {
 
 
 /* =====HEADER SECTION END===== */
+
+/* =====PLAYER SECTION START===== */
+
+#players .all-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+
+
+#players .player-box {
+    padding: 15px 15px 33px 15px;
+    box-shadow: 0 2px 18px 15px #ecebeb;
+}
+
+
+#players .all-players .player-img img {
+    width: 100%;
+}
+
+#players .player-desc h3 {
+    font-size: 28px;
+    margin-top: 5px;
+    color: #18191F;
+}
+
+#players .player-desc p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+/* =====PLAYER SECTION END===== */
 
 
 
@@ -89,13 +124,15 @@ a {
 
 @media only screen and (max-width:688px) {
 
-    .container{
+    .container {
         width: 100%;
     }
 
+    /* =====BANNER SECTION===== */
 
-    .banner-all-contents{
+    .banner-all-contents {
         flex-direction: column;
+
     }
 
     #banner .banner-text h1 {
@@ -109,5 +146,47 @@ a {
         height: 260px;
         margin-top: 50px;
     }
-    
+
+    /* =====PLAYERS SECTION===== */
+
+    .all-players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* =====FOR TABLATE===== */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .container {
+        width: 100%;
+    }
+
+    /* =====BANNER SECTION===== */
+
+    .banner-all-contents {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #banner .banner-text h1 {
+        font-size: 45px;
+        line-height: 60px;
+        width: 342px;
+    }
+
+    .banner-img {
+        width: 380px;
+        height: 295px;
+        margin-top: 0;
+    }
+
+    /* =====PLAYERS SECTION===== */
+
+    .all-players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
 }
