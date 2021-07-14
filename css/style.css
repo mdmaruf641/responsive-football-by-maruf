@@ -149,7 +149,7 @@ a {
 
     /* =====PLAYERS SECTION===== */
 
-    .all-players {
+    #players .all-players {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -184,7 +184,7 @@ a {
 
     /* =====PLAYERS SECTION===== */
 
-    .all-players {
+    #players .all-players {
         grid-template-columns: repeat(2, 1fr);
     }
 
