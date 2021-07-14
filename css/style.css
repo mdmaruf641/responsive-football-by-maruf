@@ -55,7 +55,6 @@ a {
 
 #banner .banner-img {
     width: 556px;
-    height: 438px;
 }
 
 #banner .banner-img img {
@@ -101,6 +100,35 @@ a {
 /* =====PLAYER SECTION END===== */
 
 
+#footer .footer-content{
+    text-align: center;
+    margin-top: 150px;
+    width: 483px;
+    margin-left: 315px;
+}
+
+#footer .footer-img img{
+    width: 100%;
+}
+
+.footer-icon i {
+    width: 30px;
+    height: 30px;
+    background-color: #E7E7E8;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    color: #8A8E9D;
+    margin: 0 5px;
+}
+
+.footer-text p {
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 63px;
+}
 
 
 
@@ -153,6 +181,15 @@ a {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* =====FOOTER SECTION===== */
+
+    .footer-content{
+        margin-left: 15px;
+        margin-top: 43px;
+        margin-bottom: 147px;
+        width: 370px;
+    }
+
 }
 
 /* =====FOR TABLATE===== */
@@ -189,4 +226,14 @@ a {
     }
 
 
+}
+
+@media only screen and (max-width: 1024px) {
+
+    #banner .banner-text h1 {
+        font-size: 55px;
+        line-height: 72px;
+        width: 414px;
+    
+    }
 }
