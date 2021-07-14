@@ -99,7 +99,6 @@ a {
 
 /* =====PLAYER SECTION END===== */
 
-
 #footer .footer-content{
     text-align: center;
     margin-top: 150px;
@@ -183,8 +182,8 @@ a {
 
     /* =====FOOTER SECTION===== */
 
-    .footer-content{
-        margin-left: 15px;
+    #footer .footer-content{
+        margin-left: 20px;
         margin-top: 43px;
         margin-bottom: 147px;
         width: 370px;
@@ -225,15 +224,10 @@ a {
         grid-template-columns: repeat(2, 1fr);
     }
 
-
-}
-
-@media only screen and (max-width: 1024px) {
-
-    #banner .banner-text h1 {
-        font-size: 55px;
-        line-height: 72px;
-        width: 414px;
-    
+    #footer .footer-content {
+        margin-left: 120px;
     }
+
+
 }
+
