@@ -315,6 +315,7 @@ a {
 
     .highlight-contents {
         flex-direction: column;
+        padding-left: 10px;
     }
 
     #highlights .highlights-text {
