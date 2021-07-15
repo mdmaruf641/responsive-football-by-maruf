@@ -99,40 +99,70 @@ a {
 
 /* =====PLAYER SECTION END===== */
 
-#footer .footer-content {
-    text-align: center;
-    margin-top: 150px;
-    width: 483px;
-    margin-left: 315px;
+/* =====HIGHLIGHTS SECTION START====== */
+
+#highlights {
+    padding-top: 100px;
 }
 
-#footer .footer-img img {
+#highlights .highlight-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#highlights .highlights-text {
+    width: 470px;
+}
+
+.highlights-text h1 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.highlights-text p {
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 28px;
+    padding-top: 5px;
+    width: 404px;
+}
+
+#highlights .highlights-text a {
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: #fff;
+    margin-top: 27px;
+    display: inline-block;
+    letter-spacing: 1px;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+
+#highlights .highlights-text a:hover {
+    background-color: #2D25A0;
+    color: #fff;
+}
+
+
+
+#highlights .highlights-img {
+    width: 567px;
+    height: 427px;
+}
+
+#highlights .highlights-img img {
     width: 100%;
 }
 
-.footer-icon i {
-    width: 30px;
-    height: 30px;
-    background-color: #E7E7E8;
-    border-radius: 50%;
-    line-height: 30px;
-    text-align: center;
-    color: #8A8E9D;
-    margin: 0 5px;
-}
+/* =====HIGHLIGHTS SECTION SEND====== */
 
-.footer-text p {
-    font-size: 18px;
-    color: #000;
-    font-weight: 400;
-    margin-top: 17px;
-    margin-bottom: 63px;
-}
 
 /* =====BONUS STADIUMS SECTION START===== */
 
 #stadiums {
-    padding: 40px 0;
+    padding-top: 70px;
 }
 
 #stadiums .stadiums-heading h1 {
@@ -184,7 +214,7 @@ a {
 /* =====BONUS PERTNERS SECTION START===== */
 
 #partners {
-    padding: 30px 0;
+    padding-top: 70px;
 }
 
 #partners .partners-heading h1 {
@@ -204,7 +234,38 @@ a {
 
 /* =====BONUS PERTNERS SECTION END===== */
 
+/* =====FOOTER SECTION START===== */
+#footer .footer-content {
+    text-align: center;
+    margin-top: 150px;
+    width: 483px;
+    margin-left: 315px;
+}
 
+#footer .footer-img img {
+    width: 100%;
+}
+
+.footer-icon i {
+    width: 30px;
+    height: 30px;
+    background-color: #E7E7E8;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    color: #8A8E9D;
+    margin: 0 5px;
+}
+
+.footer-text p {
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-bottom: 63px;
+}
+
+/* =====FOOTER SECTION END===== */
 
 
 
@@ -251,14 +312,32 @@ a {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    /* =====FOOTER SECTION===== */
+    /* =====HIGHLIGHTS SECTION====== */
 
-    #footer .footer-content {
-        margin-left: 20px;
-        margin-top: 43px;
-        margin-bottom: 147px;
-        width: 310px;
+    .highlight-contents {
+        flex-direction: column;
     }
+
+    #highlights .highlights-text {
+        width: 329px;
+    }
+
+    #highlights .highlights-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #highlights .highlights-text p {
+        width: 329px;
+    }
+
+    #highlights .highlights-img {
+        width: 328px;
+        height: 248px;
+        margin-top: 30px;
+    }
+
+
 
     /* =====BONUS STADIUMS SECTION===== */
 
@@ -283,7 +362,19 @@ a {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* =====FOOTER SECTION===== */
+
+    #footer .footer-content {
+        margin-left: 20px;
+        margin-top: 43px;
+        margin-bottom: 147px;
+        width: 310px;
+    }
+
+
 }
+
+
 
 /* =====FOR TABLATE===== */
 
@@ -307,7 +398,7 @@ a {
         width: 342px;
     }
 
-    .banner-img {
+    #banner .banner-img {
         width: 450px;
         height: 295px;
         margin-top: 0;
@@ -323,6 +414,29 @@ a {
         margin-left: 120px;
         margin-top: 50px;
     }
+
+
+    /* =====HIGHLIGHTS SECTION====== */
+
+    .highlight-contents {
+        align-items: flex-start;
+        margin: 0 10px;
+    }
+
+
+    #highlights .highlights-text {
+        width: 329px;
+    }
+
+    #highlights .highlights-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #highlights .highlights-text p {
+        width: 329px;
+    }
+
 
     /* =====BONUS STADIUMS SECTION===== */
 
